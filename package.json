@@ -1,0 +1,45 @@
+{
+  "name": "angular-app",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "start": "gulp",
+    "build": "NODE_ENV=production gulp build",
+    "test": "NODE_ENV=production gulp karma"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "browser-sync": "^2.6.9",
+    "del": "^2.1.0",
+    "eslint": "^3.2.2",
+    "eslint-html-reporter": "^0.5.2",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-css-spriter": "^0.3.3",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-eslint": "^3.0.1",
+    "gulp-flatten": "^0.1.1",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-if": "^2.0.0",
+    "gulp-ignore": "^2.0.1",
+    "gulp-imagemin": "^3.0.2",
+    "gulp-postcss": "^6.0.1",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-rework": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "phantomjs": "^2.1.7",
+    "rework-plugin-url": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
